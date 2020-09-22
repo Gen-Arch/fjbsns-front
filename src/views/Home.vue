@@ -11,8 +11,10 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col>
+      <v-col
+        >
         <v-card
+          class="pa-2"
           outlined
           v-for="item in timeline"
           :key="item.id"
